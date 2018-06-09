@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">toggle</string>
+    <string name="coffee">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="Milk">Milk</string>
+    <string name="order">Order</string>
+</resources>

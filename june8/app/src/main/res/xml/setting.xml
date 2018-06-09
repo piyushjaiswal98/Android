@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Indoor Games"
+        android:key="pc">
+        <CheckBoxPreference
+
+            android:key="Edittext_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Chess"/>
+        <CheckBoxPreference
+
+            android:key="Edittext_preference_2"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Carrom"/>
+        <CheckBoxPreference
+
+            android:key="Edittext_preference_3"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Table Tennis"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Outdoor Games"
+        android:key="pc">
+        <CheckBoxPreference
+
+            android:key="Edittext_preference_4"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Cricket"/>
+        <CheckBoxPreference
+
+            android:key="Edittext_preference_5"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Football"/>
+        <CheckBoxPreference
+
+            android:key="Edittext_preference_6"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Baseball"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Advance Settings"
+        android:key="pc3">
+        <EditTextPreference android:title="Welcome"
+            android:key="at1"
+            android:dialogTitle="Welcome User"
+            android:dialogMessage="Enter Your Name"
+            android:summary="Gamer Description"
+            />
+        <RingtonePreference android:title="Select Ringtone"
+            android:key="rt1"
+            android:showSilent="true"
+            android:ringtoneType="all"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
